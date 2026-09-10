@@ -31,16 +31,236 @@ ul{padding-left:1.2rem;line-height:1.55;margin:12px 0 0}
 {"@type":"ListItem","position":3,"item":{"@type":"Product","name":"Solo Operator Finance Pack","offers":{"@type":"Offer","price":"27.00","priceCurrency":"GBP","url":"https://blockdanny.gumroad.com/l/uqclm"}}}
 ]}
 </script>
-<script type="application/ld+json">
-{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[
-{"@type":"Question","name":"Is this tax advice?","acceptedAnswer":{"@type":"Answer","text":"No — educational only. Check with your accountant for your situation."}},
-{"@type":"Question","name":"Instant download?","acceptedAnswer":{"@type":"Answer","text":"Yes. Digital files only — Google Sheets, Excel, or any text editor. No shipping."}},
-{"@type":"Question","name":"Which should I buy first?","acceptedAnswer":{"@type":"Answer","text":"Start with the £7 Invoice Chase pack if clients pay late. Take the £12 Rate Card Kit for pricing clarity. Take the £27 pack for invoices, cashflow, and a tax-pot habit in one go."}},
-{"@type":"Question","name":"Do I need a tax pot?","acceptedAnswer":{"@type":"Answer","text":"Many UK freelancers set aside a percentage of profit weekly into a separate pot for tax/NI — adjust with your accountant. The £27 pack includes a simple tax-pot habit; this site is educational only."}},
-{"@type":"Question","name":"What are payments on account?","acceptedAnswer":{"@type":"Answer","text":"If your Self Assessment bill is over £1,000, HMRC may ask for payments on account (typically 31 January and 31 July). That can feel like a large January cash window. Educational only — confirm with HMRC or your accountant."}},
-{"@type":"Question","name":"What should a UK freelance invoice include?","acceptedAnswer":{"@type":"Answer","text":"Typically: your details, client details, unique invoice number, invoice date, payment terms and due date, line items, totals, VAT only if registered, and how to pay with the invoice number as reference. Educational only — confirm with your accountant."}},{"@type":"Question","name":"When does VAT registration matter for UK freelancers?","acceptedAnswer":{"@type":"Answer","text":"When taxable turnover approaches HMRC’s VAT registration threshold (rolling 12 months plus look-ahead rules). Track issued invoices, not just bank balance, and plan pricing before you register. Educational only — check current HMRC figures and your accountant."}}
-,{"@type":"Question","name":"Can UK freelancers charge interest on late invoices?","acceptedAnswer":{"@type":"Answer","text":"Sometimes, for qualifying commercial (B2B) debts, statute and/or your contract may allow interest — check GOV.UK and get advice for large balances. Practically: put a calendar due date on every invoice, log overdue, and chase politely before mentioning interest. Educational only — not legal advice."}},{"@type":"Question","name":"Should UK freelancers ask for a deposit?","acceptedAnswer":{"@type":"Answer","text":"Many do — commonly 20–50% from new clients before heavy work starts — plus clear Net 14/30 terms and a calendar due date on every invoice. Educational only — not legal advice."}},{"@type":"Question","name":"What should UK freelancers prepare for Self Assessment?","acceptedAnswer":{"@type":"Answer","text":"Reconcile invoices issued vs paid, log expenses with receipts, keep bank CSVs, note payments on account if they apply, and confirm dates on GOV.UK. Book your accountant early if you use one. Educational only — not tax advice."}},{"@type":"Question","name":"How should UK freelancers track expenses?","acceptedAnswer":{"@type":"Answer","text":"Separate business spend where you can, photo receipts the day you buy, and log date/amount/category weekly — then reconcile to the bank. Confirm allowable expenses with GOV.UK or your accountant. Educational only — not tax advice."}},{"@type":"Question","name":"What is Making Tax Digital for UK freelancers?","acceptedAnswer":{"@type":"Answer","text":"MTD for Income Tax is about keeping digital records and sending updates in a software-friendly way. Start with tidy invoices, expenses, and bank CSVs you can import later; confirm your start date and exemptions on GOV.UK. Educational only — not tax advice."}},{"@type":"Question","name":"Can UK freelancers claim home office costs?","acceptedAnswer":{"@type":"Answer","text":"Often in some form — simplified/flat-rate home working claims where eligible, or a fair proportion of actual costs. Confirm eligibility and current GOV.UK figures with your accountant; do not invent a percentage. Educational only — not tax advice."}},{"@type":"Question","name":"Do UK freelancers pay National Insurance?","acceptedAnswer":{"@type":"Answer","text":"Often yes — many sole traders face National Insurance on profits (commonly Class 4 between limits; Class 2 rules have shifted over time). Size a weekly tax/NI pot from estimated profit with your accountant and confirm current GOV.UK rules. Educational only — not tax advice."}},{"@type":"Question","name":"How can IR35 affect UK freelancer cashflow?","acceptedAnswer":{"@type":"Answer","text":"If a contract is treated like employment (inside IR35 / similar off-payroll rules), take-home is often lower than the headline day rate and pay may follow a payroll calendar instead of a Net 14 invoice float. Budget from expected net, keep a cushion for status flips, and still track commercial invoices on other work. Educational only — not tax, legal, or IR35 determination advice; confirm with GOV.UK and a qualified adviser."}},{"@type":"Question","name":"Should UK freelancers use a limited company or stay sole trader?","acceptedAnswer":{"@type":"Answer","text":"It depends on profit, client requirements, admin appetite, and status rules (including IR35 on some contracts). Sole trader is often simpler early; a limited company adds corporation tax and filings. Model cash with an accountant before switching. Educational only — not tax or legal advice."}}]}
-</script>
+<script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Is this tax advice?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "No — educational only. Check with your accountant for your situation."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Instant download?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. Digital files only — Google Sheets, Excel, or any text editor. No shipping."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Which should I buy first?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Start with the £7 Invoice Chase pack if clients pay late. Take the £12 Rate Card Kit for pricing clarity. Take the £27 pack for invoices, cashflow, and a tax-pot habit in one go."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Do I need a tax pot?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Many UK freelancers set aside a percentage of profit weekly into a separate pot for tax/NI — adjust with your accountant. The £27 pack includes a simple tax-pot habit; this site is educational only."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What are payments on account?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "If your Self Assessment bill is over £1,000, HMRC may ask for payments on account (typically 31 January and 31 July). That can feel like a large January cash window. Educational only — confirm with HMRC or your accountant."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What should a UK freelance invoice include?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Typically: your details, client details, unique invoice number, invoice date, payment terms and due date, line items, totals, VAT only if registered, and how to pay with the invoice number as reference. Educational only — confirm with your accountant."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "When does VAT registration matter for UK freelancers?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "When taxable turnover approaches HMRC’s VAT registration threshold (rolling 12 months plus look-ahead rules). Track issued invoices, not just bank balance, and plan pricing before you register. Educational only — check current HMRC figures and your accountant."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can UK freelancers charge interest on late invoices?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Sometimes, for qualifying commercial (B2B) debts, statute and/or your contract may allow interest — check GOV.UK and get advice for large balances. Practically: put a calendar due date on every invoice, log overdue, and chase politely before mentioning interest. Educational only — not legal advice."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Should UK freelancers ask for a deposit?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Many do — commonly 20–50% from new clients before heavy work starts — plus clear Net 14/30 terms and a calendar due date on every invoice. Educational only — not legal advice."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What should UK freelancers prepare for Self Assessment?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Reconcile invoices issued vs paid, log expenses with receipts, keep bank CSVs, note payments on account if they apply, and confirm dates on GOV.UK. Book your accountant early if you use one. Educational only — not tax advice."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How should UK freelancers track expenses?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Separate business spend where you can, photo receipts the day you buy, and log date/amount/category weekly — then reconcile to the bank. Confirm allowable expenses with GOV.UK or your accountant. Educational only — not tax advice."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is Making Tax Digital for UK freelancers?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "MTD for Income Tax is about keeping digital records and sending updates in a software-friendly way. Start with tidy invoices, expenses, and bank CSVs you can import later; confirm your start date and exemptions on GOV.UK. Educational only — not tax advice."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can UK freelancers claim home office costs?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Often in some form — simplified/flat-rate home working claims where eligible, or a fair proportion of actual costs. Confirm eligibility and current GOV.UK figures with your accountant; do not invent a percentage. Educational only — not tax advice."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Do UK freelancers pay National Insurance?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Often yes — many sole traders face National Insurance on profits (commonly Class 4 between limits; Class 2 rules have shifted over time). Size a weekly tax/NI pot from estimated profit with your accountant and confirm current GOV.UK rules. Educational only — not tax advice."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How can IR35 affect UK freelancer cashflow?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "If a contract is treated like employment (inside IR35 / similar off-payroll rules), take-home is often lower than the headline day rate and pay may follow a payroll calendar instead of a Net 14 invoice float. Budget from expected net, keep a cushion for status flips, and still track commercial invoices on other work. Educational only — not tax, legal, or IR35 determination advice; confirm with GOV.UK and a qualified adviser."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Should UK freelancers use a limited company or stay sole trader?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "It depends on profit, client requirements, admin appetite, and status rules (including IR35 on some contracts). Sole trader is often simpler early; a limited company adds corporation tax and filings. Model cash with an accountant before switching. Educational only — not tax or legal advice."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Should UK freelancers use a separate business bank account?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Often yes for clarity — even as a sole trader. Client payments land in one CSV-friendly account, personal spend stays out of the invoice trail, and weekly tax-pot transfers become deliberate. Pair it with a short Money Friday: mark paid invoices, chase overdue once, export the bank CSV, then split tax/ops/life. Educational only — not banking or tax advice."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What should UK freelancers check before onboarding a new client?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Capture who pays (billing email and PO if needed), scope in/out, GBP fee from a clear rate card, deposit and Net 14/30 terms, and how they pay with the invoice number as reference — then invoice deposits first on new clients and log due dates on a calendar. Educational only — not legal or contract advice."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Should UK freelancers charge packages or hourly?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Often both. Use packages (or fixed fees) for clear, repeatable deliverables with written in/out and revision rounds. Use hourly or day-rate for discovery and fuzzy scope — with a soft estimate cap and a re-quote when you hit it. Put both on one GBP rate card before kickoff. Educational only — not pricing advice."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How should UK freelancers handle scope creep?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Quote with clear in/out and revision rounds. When asks grow, offer swap / priced change order / phase 2 after the current invoice clears — then write it down and invoice the change with a calendar due date. Educational only — not legal or contract advice."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Should UK freelancers offer monthly retainers?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Often yes once work is repeatable — as an hours bank, outcome slot, or priority fee. Put GBP fee, billing day, inclusions, unused-hours rule, and change-order triggers on a rate card; invoice on a fixed calendar day with Net 7/14; soft-cap hours so retainers are not unpaid on-call. Educational only — not pricing or legal advice."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Should UK freelancers use milestone billing?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes for larger projects — deposit before kickoff, midpoint on an accepted draft/slice, final on delivery. Put GBP amounts and acceptance criteria on a rate card; invoice the next milestone the day the previous one clears; treat mid-project scope changes as change orders. Educational only, not pricing advice."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Should UK freelancers use a kill fee if a client cancels?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Often yes if written on the proposal first: non-refundable deposit once work starts, a kill-fee ladder for mid-project cancel, and an invoice for work done to date with Net 7/14. Educational only — not legal or pricing advice."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Should UK freelancers pause work if an invoice is overdue?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Often yes after written Net 14/30 terms and one polite overdue chase: pause new deliverables until cleared funds or a written plan, reply once with the open invoice number and due date, and keep prior work billed. Educational only — not legal or debt-recovery advice."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Should UK freelancers send a written estimate before starting?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes for almost anything beyond a tiny favour — a one-pager with scope in/out, GBP fee or band with a soft cap, deposit plus Net 14/30, who accepts, and that extras are change orders. Start when they reply agreed and the deposit clears. Educational only — not legal or contract advice."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Should UK freelancers use a credit note instead of deleting an invoice?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes — issue a credit note for the wrong amount or full invoice, then a corrected invoice that references the original number. If money already cleared, refund the difference and mark the credit applied the same day. Educational only — not tax or accounting advice."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Should UK freelancers get a purchase order before starting?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Often yes with corporates and anyone who uses POs — get the PO number (or written no-PO), billing entity, AP email, and Net terms before the deposit invoice, then put the PO on every invoice and chase. Educational only — not legal advice."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Should UK freelancers keep timesheets even on day-rate work?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Often yes — lightly. Log date, client, task, and hours or half-days the same day so you see margin and when to raise a change order. Share raw hours only if the contract requires it; otherwise invoice on clear Net terms and chase with the invoice number and due date. Educational only — not legal or pricing advice."
+      }
+    }
+  ]
+}</script>
 <link rel="canonical" href="https://solooperatorfinance.com/"/>
 <meta property="og:title" content="Solo Operator — UK Freelancer Money Toolkit"/>
 <meta property="og:description" content="UK freelancer invoice chase emails (£7), rate card kit (£12), and Solo Operator Finance Pack (£27). Instant download."/>
@@ -108,6 +328,18 @@ ul{padding-left:1.2rem;line-height:1.55;margin:12px 0 0}
 <details style="background:#fff;border-radius:12px;padding:14px 18px;margin-bottom:10px;box-shadow:0 4px 16px rgba(30,58,95,.06)"><summary style="cursor:pointer;font-weight:600">Do UK freelancers pay National Insurance?</summary><p style="margin:10px 0 0;color:#444">Often yes — many sole traders face NI on profits (Class 4 is commonly the larger charge between limits; Class 2 rules have shifted). Add NI into a weekly tax pot sized with your accountant and confirm current GOV.UK guidance. Educational only — not tax advice.</p></details>
 <details style="background:#fff;border-radius:12px;padding:14px 18px;margin-bottom:10px;box-shadow:0 4px 16px rgba(30,58,95,.06)"><summary style="cursor:pointer;font-weight:600">Should UK freelancers use a limited company or stay sole trader?</summary><p style="margin:10px 0 0;color:#444">It depends on profit, client requirements, admin appetite, and status rules (including IR35 on some contracts). Sole trader is often simpler early; a limited company adds corporation tax and filings. Model cash with an accountant before switching. Educational only — not tax or legal advice.</p></details>
 <details style="background:#fff;border-radius:12px;padding:14px 18px;margin-bottom:10px;box-shadow:0 4px 16px rgba(30,58,95,.06)"><summary style="cursor:pointer;font-weight:600">How can IR35 affect UK freelancer cashflow?</summary><p style="margin:10px 0 0;color:#444">If a contract is treated like employment (inside IR35 / similar off-payroll rules), take-home is often lower than the headline day rate and pay may follow a payroll calendar instead of a Net 14 invoice float. Budget from expected net, keep a cushion for status flips, and still track commercial invoices on other work. Educational only — not tax, legal, or IR35 determination advice.</p></details>
+<details style="background:#fff;border-radius:12px;padding:14px 18px;margin-bottom:10px;box-shadow:0 4px 16px rgba(30,58,95,.06)"><summary style="cursor:pointer;font-weight:600">Should UK freelancers use a separate business bank account?</summary><p style="margin:10px 0 0;color:#444">Often yes for clarity — even as a sole trader. Client payments land in one CSV-friendly account, personal spend stays out of the invoice trail, and weekly tax-pot transfers become deliberate. Pair it with a short Money Friday: mark paid invoices, chase overdue once, export the bank CSV, then split tax/ops/life. Educational only — not banking or tax advice.</p></details>
+<details style="background:#fff;border-radius:12px;padding:14px 18px;margin-bottom:10px;box-shadow:0 4px 16px rgba(30,58,95,.06)"><summary style="cursor:pointer;font-weight:600">How should UK freelancers handle scope creep?</summary><p style="margin:10px 0 0;color:#444">Quote with clear in/out and revision rounds. When asks grow, offer swap / priced change order / phase 2 after the current invoice clears — then write it down and invoice the change with a calendar due date. Educational only — not legal or contract advice.</p></details>
+<details style="background:#fff;border-radius:12px;padding:14px 18px;margin-bottom:10px;box-shadow:0 4px 16px rgba(30,58,95,.06)"><summary style="cursor:pointer;font-weight:600">What should UK freelancers check before onboarding a new client?</summary><p style="margin:10px 0 0;color:#444">Capture who pays (billing email and PO if needed), scope in/out, GBP fee from a clear rate card, deposit and Net 14/30 terms, and how they pay with the invoice number as reference — then invoice deposits first on new clients and log due dates on a calendar. Educational only — not legal or contract advice.</p></details>
+<details style="background:#fff;border-radius:12px;padding:14px 18px;margin-bottom:10px;box-shadow:0 4px 16px rgba(30,58,95,.06)"><summary style="cursor:pointer;font-weight:600">Should UK freelancers charge packages or hourly?</summary><p style="margin:10px 0 0;color:#444">Often both. Use packages (or fixed fees) for clear, repeatable deliverables with written in/out and revision rounds. Use hourly or day-rate for discovery and fuzzy scope — with a soft estimate cap and a re-quote when you hit it. Put both on one GBP rate card before kickoff. Educational only — not pricing advice.</p></details>
+<details style="background:#fff;border-radius:12px;padding:14px 18px;margin-bottom:10px;box-shadow:0 4px 16px rgba(30,58,95,.06)"><summary style="cursor:pointer;font-weight:600">Should UK freelancers offer monthly retainers?</summary><p style="margin:10px 0 0;color:#444">Often yes once work is repeatable — as an hours bank, outcome slot, or priority fee. Put GBP fee, billing day, inclusions, unused-hours rule, and change-order triggers on a rate card; invoice on a fixed calendar day with Net 7/14; soft-cap hours so retainers are not unpaid on-call. Educational only — not pricing or legal advice.</p></details>
+<details style="background:#fff;border-radius:12px;padding:14px 18px;margin-bottom:10px;box-shadow:0 4px 16px rgba(30,58,95,.06)"><summary style="cursor:pointer;font-weight:600">Should UK freelancers use milestone billing?</summary><p style="margin:10px 0 0;color:#444">Yes for larger projects — deposit before kickoff, midpoint on an accepted draft/slice, final on delivery. Put GBP amounts and acceptance criteria on a rate card; invoice the next milestone the day the previous one clears; treat mid-project scope changes as change orders. Educational only, not pricing advice. <a href="https://blockdanny.gumroad.com/l/zkqfxw">Rate Card Kit</a> · <a href="https://blockdanny.gumroad.com/l/zunwlm">Invoice Chase</a> · <a href="https://blockdanny.gumroad.com/l/uqclm">Finance Pack</a>.</p></details>
+<details style="background:#fff;border-radius:12px;padding:14px 18px;margin-bottom:10px;box-shadow:0 4px 16px rgba(30,58,95,.06)"><summary style="cursor:pointer;font-weight:600">Should UK freelancers use a kill fee if a client cancels?</summary><p style="margin:10px 0 0;color:#444">Often yes if written on the proposal first: non-refundable deposit once work starts, a kill-fee ladder for mid-project cancel, and an invoice for work done to date with Net 7/14. Educational only — not legal or pricing advice. <a href="https://blockdanny.gumroad.com/l/zkqfxw">Rate Card Kit</a> · <a href="https://blockdanny.gumroad.com/l/zunwlm">Invoice Chase</a> · <a href="https://blockdanny.gumroad.com/l/uqclm">Finance Pack</a>.</p></details>
+<details style="background:#fff;border-radius:12px;padding:14px 18px;margin-bottom:10px;box-shadow:0 4px 16px rgba(30,58,95,.06)"><summary style="cursor:pointer;font-weight:600">Should UK freelancers pause work if an invoice is overdue?</summary><p style="margin:10px 0 0;color:#444">Often yes after written Net 14/30 terms and one polite overdue chase: pause new deliverables until cleared funds or a written plan, reply once with the open invoice number and due date, and keep prior work billed. Educational only — not legal advice. <a href="https://blockdanny.gumroad.com/l/zunwlm">Invoice Chase</a> · <a href="https://blockdanny.gumroad.com/l/zkqfxw">Rate Card Kit</a> · <a href="https://blockdanny.gumroad.com/l/uqclm">Finance Pack</a>.</p></details>
+<details style="background:#fff;border-radius:12px;padding:14px 18px;margin-bottom:10px;box-shadow:0 4px 16px rgba(30,58,95,.06)"><summary style="cursor:pointer;font-weight:600">Should UK freelancers send a written estimate before starting?</summary><p style="margin:10px 0 0;color:#444">Yes for almost anything beyond a tiny favour — a one-pager with scope in/out, GBP fee or band with a soft cap, deposit plus Net 14/30, who accepts, and that extras are change orders. Start when they reply agreed and the deposit clears. Educational only — not legal advice. <a href="https://blockdanny.gumroad.com/l/zkqfxw">Rate Card Kit</a> · <a href="https://blockdanny.gumroad.com/l/zunwlm">Invoice Chase</a> · <a href="https://blockdanny.gumroad.com/l/uqclm">Finance Pack</a>.</p></details>
+<details style="background:#fff;border-radius:12px;padding:14px 18px;margin-bottom:10px;box-shadow:0 4px 16px rgba(30,58,95,.06)"><summary style="cursor:pointer;font-weight:600">Should UK freelancers use a credit note instead of deleting an invoice?</summary><p style="margin:10px 0 0;color:#444">Yes — credit note for the wrong amount or full invoice, then a corrected invoice that references the original number. If money already cleared, refund the difference and mark the credit applied the same day. Educational only — not tax advice. <a href="https://blockdanny.gumroad.com/l/zunwlm">Invoice Chase</a> · <a href="https://blockdanny.gumroad.com/l/zkqfxw">Rate Card Kit</a> · <a href="https://blockdanny.gumroad.com/l/uqclm">Finance Pack</a>.</p></details>
+<details style="background:#fff;border-radius:12px;padding:14px 18px;margin-bottom:10px;box-shadow:0 4px 16px rgba(30,58,95,.06)"><summary style="cursor:pointer;font-weight:600">Should UK freelancers get a purchase order before starting?</summary><p style="margin:10px 0 0;color:#444">Often yes with corporates and anyone who uses POs — get the PO number (or written no-PO), billing entity, AP email, and Net terms before the deposit invoice, then put the PO on every invoice and chase. Educational only — not legal advice. <a href="https://blockdanny.gumroad.com/l/zkqfxw">Rate Card Kit</a> · <a href="https://blockdanny.gumroad.com/l/zunwlm">Invoice Chase</a> · <a href="https://blockdanny.gumroad.com/l/uqclm">Finance Pack</a>.</p></details>
+<details style="background:#fff;border-radius:12px;padding:14px 18px;margin-bottom:10px;box-shadow:0 4px 16px rgba(30,58,95,.06)"><summary style="cursor:pointer;font-weight:600">Should UK freelancers keep timesheets even on day-rate work?</summary><p style="margin:10px 0 0;color:#444">Often yes — lightly. Log date, client, task, and hours or half-days the same day so you see margin and when to raise a change order. Share raw hours only if the contract requires it; otherwise invoice on clear Net terms and chase with the invoice number and due date. Educational only — not legal or pricing advice. <a href="https://blockdanny.gumroad.com/l/zkqfxw">Rate Card Kit</a> · <a href="https://blockdanny.gumroad.com/l/zunwlm">Invoice Chase</a> · <a href="https://blockdanny.gumroad.com/l/uqclm">Finance Pack</a>.</p></details>
 </section>
 <p class="fine">solooperatorfinance.com · Daniel Khan · Instant digital delivery</p>
 <p class="fine" style="margin-top:20px">
@@ -123,6 +355,8 @@ ul{padding-left:1.2rem;line-height:1.55;margin:12px 0 0}
 <p class="fine" style="margin-top:12px">
 <a href="https://fazier.com" target="_blank"><img src="https://fazier.com/api/v1//public/badges/launch_badges.svg?badge_type=launched&theme=light" width=120 alt="Fazier badge" /></a>
 </p>
+<p class="fine" style="margin-top:12px"><a href="https://twelve.tools" target="_blank" rel="noopener">Featured on Twelve Tools</a></p>
+
 
 
 </main>
